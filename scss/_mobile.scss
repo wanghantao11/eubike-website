@@ -1,0 +1,237 @@
+@include mediaXl {
+  #app {
+    .box1 {
+
+      li {
+        font-size: 1.5rem;
+        padding: 2.5rem;
+
+        &.current {
+          font-size: 1.7rem;
+        }
+      }
+
+    }
+
+    .box2 {
+      img {
+        width: 60%;
+      }
+    }
+  }
+
+  #rule {
+    .rule {
+      div {
+        margin: 1rem 4rem;
+      }
+    }
+  }
+}
+
+@include mediaMd {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  #head {
+    height: max-content;
+
+    .logo1 {
+      margin: 5rem auto 2rem auto;
+      max-width: 60%;
+    }
+
+    .overlay {
+      width: 100%;
+      height: max-content;
+    }
+
+    h1 {
+      margin-bottom: 0;
+    }
+
+    .app-button {
+      display: block;
+      margin: 1rem auto 2rem auto;
+      padding: 1rem 1.5rem;
+      width: 8rem;
+    }
+  }
+
+  #vision {
+    height: 38rem;
+    min-height: max-content;
+
+    p {
+      font-size: 1.2rem;
+      .title {
+        font-size: 1.8rem
+      }
+    }
+  }
+
+  #app {
+    .box1 {
+      padding: 3rem 2rem;
+      padding-bottom: 0;
+    }
+
+    .box2 {
+      img {
+        padding: 4rem 0;
+      }
+    }
+  }
+
+  #rule {
+    padding-top: 3rem;
+  }
+
+  footer {
+    height: 4rem;
+    font-size: 0.8rem;
+
+    img {
+      height: 1.2rem;
+      margin: 0 0.1rem;
+    }
+  }
+}
+
+@include mediaSm {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  #head {
+    height: max-content;
+
+    .overlay {
+      width: 100%;
+      height: max-content;
+    }
+
+    h1 {
+      margin-bottom: 0;
+    }
+
+    .app-button {
+      display: block;
+      font-size: 0.8rem;
+      margin: 1rem auto 1.5rem auto;
+      padding: 0.8rem 1.2rem;
+      width: 6rem;
+    }
+  }
+
+  #vision {
+    p {
+      font-size: 1rem;
+
+      .title {
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  #app {
+    .box1 {
+      min-height: 26rem;
+
+      ul {
+        padding: 1rem;
+        padding-bottom: 0;
+      }
+
+      li {
+        padding: 1rem 1.2rem;
+        font-size: 1rem;
+
+        &.current {
+          font-size: 1.2rem;
+          padding: 1.2rem 1.5rem;
+        }
+      }
+    }
+
+    .box2 {
+      img {
+        padding: 3rem 0;
+      }
+    }
+  }
+
+  #rule {
+    padding: 4rem 2rem;
+
+    h2 {
+      padding-bottom: 2rem;
+    }
+
+    .rule {
+      div {
+        margin: 1rem 0;
+      }
+
+      span {
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
+
+@include mediaXs {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  #vision {
+    height: 40rem;
+
+    p {
+      font-size: 0.8rem;
+
+      .title {
+        font-size: 1.3rem;
+      }
+    }
+  }
+
+  #app {
+    .box1 {
+      min-height: 22rem;
+      ul {
+        padding: 1rem 0.5rem;
+        margin-bottom: 0;
+      }
+      li {
+        padding: 0.8rem 1rem;
+        font-size: 0.8rem;
+
+        &.current {
+          font-size: 0.9rem;
+          padding: 1rem 1.2rem;
+        }
+      }
+    }
+
+    .box2 {
+      img {
+        padding: 2.5rem 0;
+      }
+    }
+  }
+}

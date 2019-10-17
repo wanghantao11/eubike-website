@@ -1,0 +1,15 @@
+{
+  "name": "eugo",
+  "version": "1.0.0",
+  "description": "Eugo responsive website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Zhuowen Fang",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}

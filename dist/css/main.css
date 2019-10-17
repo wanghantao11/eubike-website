@@ -1,0 +1,316 @@
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono:300,400,500,600,700|IBM+Plex+Sans:300,400,500");
+html {
+  scroll-behavior: smooth; }
+
+body {
+  background: #fff;
+  height: 100%;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 400;
+  margin: 0;
+  line-height: 1.5;
+  text-align: center;
+  color: #fff; }
+
+h1, h2, h3 {
+  font-weight: 400;
+  margin: 0; }
+
+h1 {
+  font-size: 2.5rem; }
+
+h2 {
+  font-size: 2rem; }
+
+.bold {
+  font-weight: 700; }
+
+.semi-bold {
+  font-weight: 600; }
+
+.medium {
+  font-weight: 500; }
+
+.light {
+  font-weight: 300; }
+
+#head {
+  height: 90vh;
+  background: url(../img/Main_01_New_Final.jpg);
+  background-size: cover;
+  background-position: center; }
+  #head .overlay {
+    height: 100%;
+    width: 100%; }
+  #head .logo1 {
+    margin: 8rem auto 4rem auto;
+    max-height: 15rem; }
+  #head h1 {
+    margin-bottom: 3rem; }
+  #head .app-button {
+    background: #fff;
+    color: #333;
+    width: 12rem;
+    margin: auto 1.5rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    text-align: center;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    text-decoration: none;
+    display: inline-block; }
+
+#vision {
+  height: 40rem;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: column; }
+  #vision .main-border {
+    height: 5rem;
+    width: 100%;
+    background-image: url(../img/StripesSquare_10xForMobile_26xOndesktop_02.svg);
+    background-repeat: repeat-x; }
+  #vision .center {
+    flex-grow: 1; }
+  #vision p {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-33%, -45%);
+    color: #333;
+    margin: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1.5rem;
+    padding: 2rem 0;
+    box-sizing: border-box; }
+    #vision p .title {
+      font-size: 2rem;
+      font-family: 'IBM Plex Mono', monospace; }
+    #vision p .medium {
+      display: block; }
+
+#app-illustration {
+  width: 100%;
+  height: auto; }
+
+#app {
+  height: max-content;
+  min-height: 40rem;
+  background: #fff;
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap; }
+  #app .box1, #app .box2 {
+    flex: 1 1 auto;
+    flex-basis: 384px; }
+  #app .box1 {
+    padding: 5rem;
+    color: #333;
+    min-height: 34rem;
+    display: flex;
+    flex-direction: column; }
+    #app .box1 h2 {
+      margin-bottom: 1rem; }
+    #app .box1 ul {
+      font-family: 'IBM Plex Sans', sans-serif;
+      flex-grow: 1;
+      justify-content: space-between;
+      list-style-type: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0;
+      margin-bottom: 2rem;
+      padding: 2rem;
+      padding-bottom: 0;
+      text-align: center; }
+    #app .box1 li {
+      display: block;
+      border-radius: 0.5rem;
+      color: rgba(51, 51, 51, 0.5);
+      text-align: left;
+      box-sizing: border-box;
+      font-size: 1.2rem;
+      padding: 2rem;
+      width: 100%;
+      max-width: 30rem;
+      transition: all 0.3s ease-out;
+      -webkit-box-shadow: 2px 2px 10px 0px rgba(51, 51, 51, 0.2);
+      -moz-box-shadow: 2px 2px 10px 0px rgba(51, 51, 51, 0.2);
+      box-shadow: 2px 2px 10px 0px rgba(51, 51, 51, 0.2); }
+      #app .box1 li.current {
+        font-size: 1.4rem;
+        color: #333333;
+        padding: 2rem 2.5rem; }
+  #app .box2 {
+    text-align: center; }
+    #app .box2 img {
+      display: block;
+      width: 55%;
+      max-width: 20rem;
+      padding: 5rem 0;
+      margin: auto;
+      transition: all 0.3s ease-out; }
+
+#rule {
+  height: max-content;
+  background: #333;
+  color: #fff;
+  padding: 6rem 4rem; }
+  #rule h2 {
+    padding-bottom: 4rem; }
+  #rule .rule {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif; }
+    #rule .rule div {
+      height: max-content;
+      width: 15rem;
+      display: grid;
+      grid-template-rows: 3fr 1fr;
+      margin: 1rem 3rem; }
+    #rule .rule img {
+      margin: 1.5rem auto;
+      height: 9rem;
+      max-width: 70%;
+      object-fit: contain; }
+    #rule .rule span {
+      font-size: 1.3rem; }
+
+footer {
+  background: #00918D;
+  text-align: center;
+  justify-content: center;
+  font-weight: 300;
+  padding: 2rem;
+  height: 5rem; }
+  footer div {
+    margin-bottom: 1rem; }
+  footer img {
+    height: 1.5rem;
+    margin: 0 0.2rem; }
+
+@media screen and (min-width: 1171px) {
+  #app .box1 li {
+    font-size: 1.5rem;
+    padding: 2.5rem; }
+    #app .box1 li.current {
+      font-size: 1.7rem; }
+  #app .box2 img {
+    width: 60%; }
+  #rule .rule div {
+    margin: 1rem 4rem; } }
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2rem; }
+  h2 {
+    font-size: 1.8rem; }
+  #head {
+    height: max-content; }
+    #head .logo1 {
+      margin: 5rem auto 2rem auto;
+      max-width: 60%; }
+    #head .overlay {
+      width: 100%;
+      height: max-content; }
+    #head h1 {
+      margin-bottom: 0; }
+    #head .app-button {
+      display: block;
+      margin: 1rem auto 2rem auto;
+      padding: 1rem 1.5rem;
+      width: 8rem; }
+  #vision {
+    height: 38rem;
+    min-height: max-content; }
+    #vision p {
+      font-size: 1.2rem; }
+      #vision p .title {
+        font-size: 1.8rem; }
+  #app .box1 {
+    padding: 3rem 2rem;
+    padding-bottom: 0; }
+  #app .box2 img {
+    padding: 4rem 0; }
+  #rule {
+    padding-top: 3rem; }
+  footer {
+    height: 4rem;
+    font-size: 0.8rem; }
+    footer img {
+      height: 1.2rem;
+      margin: 0 0.1rem; } }
+
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 1.8rem; }
+  h2 {
+    font-size: 1.5rem; }
+  #head {
+    height: max-content; }
+    #head .overlay {
+      width: 100%;
+      height: max-content; }
+    #head h1 {
+      margin-bottom: 0; }
+    #head .app-button {
+      display: block;
+      font-size: 0.8rem;
+      margin: 1rem auto 1.5rem auto;
+      padding: 0.8rem 1.2rem;
+      width: 6rem; }
+  #vision p {
+    font-size: 1rem; }
+    #vision p .title {
+      font-size: 1.5rem; }
+  #app .box1 {
+    min-height: 26rem; }
+    #app .box1 ul {
+      padding: 1rem;
+      padding-bottom: 0; }
+    #app .box1 li {
+      padding: 1rem 1.2rem;
+      font-size: 1rem; }
+      #app .box1 li.current {
+        font-size: 1.2rem;
+        padding: 1.2rem 1.5rem; }
+  #app .box2 img {
+    padding: 3rem 0; }
+  #rule {
+    padding: 4rem 2rem; }
+    #rule h2 {
+      padding-bottom: 2rem; }
+    #rule .rule div {
+      margin: 1rem 0; }
+    #rule .rule span {
+      font-size: 1.2rem; } }
+
+@media screen and (max-width: 320px) {
+  h1 {
+    font-size: 1.5rem; }
+  h2 {
+    font-size: 1.3rem; }
+  #vision {
+    height: 40rem; }
+    #vision p {
+      font-size: 0.8rem; }
+      #vision p .title {
+        font-size: 1.3rem; }
+  #app .box1 {
+    min-height: 22rem; }
+    #app .box1 ul {
+      padding: 1rem 0.5rem;
+      margin-bottom: 0; }
+    #app .box1 li {
+      padding: 0.8rem 1rem;
+      font-size: 0.8rem; }
+      #app .box1 li.current {
+        font-size: 0.9rem;
+        padding: 1rem 1.2rem; }
+  #app .box2 img {
+    padding: 2.5rem 0; } }
